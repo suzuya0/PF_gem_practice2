@@ -1,0 +1,6 @@
+<h2>BOOKS</h2>
+<ul>
+  <% @books.each do |book| %>
+  <li><%= book.title %>-<%= book.price %>円</li>
+  <% end %>
+</ul>
